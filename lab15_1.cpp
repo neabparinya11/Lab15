@@ -32,7 +32,7 @@ int main(){
 	findColSum(dPtr,sum2,N,M); 
 	showData(sum2,1,M);
 }
-void showData(double *array,int a,int b){
+void showData(double *array,int N,int M){
 	cout << fixed << setprecision(2);
     for(int i = 0; i < N*M; i++){
         cout << array[i];
